@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <title>Contacto</title>
+    <link rel="icon" type="image/x-icon" href="https://mario.wiki.gallery/images/1/13/Luigi%26babyluigi.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/">Biografía</a>
+      <a href="/page2.html" aria-current="page">Contacto</a>
+          <!--Como coloqué en el html de Index, esta página está creada para practicar crear un formulario-->
+    </nav>
+    <main>
+      <h1>Luigi Mario</h1>
+        <img src="https://mario.wiki.gallery/images/7/7b/M%26SATLOG_Luigi_Relay_artwork.png">
+      <h2>Contacto</h2>
+          <form action="/action_page.php">
+                <!--Nunca se me dio mucho el PHP, espero que no sea inconveniente-->
+            <label for="fname">Nombre:</label><br>
+              <input type="text" id="fname" name="fname" placeholder="ABC DEF" required><br>
+            <label for="lname">E-mail:</label><br>
+              <input type="text" id="lname" name="lname" placeholder="abc@def.ghi"><br>
+            <label for="message">Mensaje</label><br>
+              <textarea id="message" name="message" placeholder="Escribí tu mensaje..." required></textarea><br>
+            <input type="submit" value="Submit">
+          </form> 
+    </main>
+  </body>
+</html>

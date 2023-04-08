@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://mario.wiki.gallery/images/monobook-bg.webp");
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #000000;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.2rem;
+  background-color: #d0f3c2;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+
+nav a[aria-current='page'] {
+  color: #000;
+  background-color: #ffffff;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+    color: #4f0bed;
+    font-weight: 550;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px 5px #383737;
+}
+
+h2 {
+  color: #185a08;
+  font-weight: 550;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+  width: 30%;
+  float: right;
+  border: 10px dotted #268808;
+  margin: 0px 0px 30px 50px;
+  background-color: #ffffff;
+}
+
+ul li {
+  color: #00008b;
+  margin: 5px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #268808;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #268808;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #268808;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+input[type=text]:focus {
+  background-color: #cbdee4;
+}
+
+textarea:focus {
+  background-color: #cbdee4;
+}
+
+iframe {
+  min-width: 40%;
+  max-width: 50%;
+  min-height: 275px;
+}
